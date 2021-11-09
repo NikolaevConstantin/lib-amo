@@ -86,6 +86,12 @@ class Params implements ParamsInterface
         return $this;
     }
 
+    public function addLocale($value)
+    {
+        $this->authParams['locale'] = $value;
+        return $this;
+    }
+
     /**
      * Получение параметра для авторизации по ключу или список параметров
      *

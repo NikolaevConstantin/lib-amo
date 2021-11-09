@@ -13,4 +13,6 @@ interface ParamsInterface
     public function addApiKey($value);
 
     public function addAccessToken($value);
+
+    public function addLocale($value);
 }
