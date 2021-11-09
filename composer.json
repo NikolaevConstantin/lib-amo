@@ -1,0 +1,21 @@
+{
+    "name": "pushkin/lib-amo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pushkin",
+            "email": "nikolaevconstantin@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "libAmo\\": "/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable" : true,
+    "require": {
+        "ext-curl": "*",
+        "ext-json": "*"
+    }
+}
